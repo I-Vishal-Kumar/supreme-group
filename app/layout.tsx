@@ -16,15 +16,15 @@ export const metadata = {
   title: 'Supreme Group',
   description: 'Driving the future with nonwoven solutions from interior to exterior. Explore 360° automotive advancements.',
   keywords: 'Nonwoven, Automotive, Cabin, Trunk, Exterior, Innovation, Supreme Group',
-  authors: [{ name: 'Supreme Group', url: 'https://supremegroup.co.in' }],
+  authors: [{ name: 'Supreme Group', url: 'https://supreme-group-peach.vercel.app' }],
   openGraph: {
     title: 'Supreme Group',
     description: 'Revolutionizing vehicle solutions with nonwoven innovation.',
-    url: 'https://supremegroup.co.in',
+    url: 'https://supreme-group-peach.vercel.app',
     siteName: 'Supreme Group',
     images: [
       {
-        url: 'https://supremegroup.co.in/og-image.jpg',
+        url: 'https://supreme-group-peach.vercel.app/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Supreme Group Preview Image',
@@ -37,7 +37,7 @@ export const metadata = {
     title: 'Supreme Group',
     description: 'Revving up innovation from interior to exterior.',
     site: '@SupremeGroup',
-    images: ['https://supremegroup.co.in/twitter-image.jpg'],
+    images: ['https://supreme-group-peach.vercel.app/twitter-image.jpg'],
   },
 };
 

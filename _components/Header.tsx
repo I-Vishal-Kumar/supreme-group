@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BsTranslate } from "react-icons/bs";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
     const [language, setLanguage] = useState("ENG");
@@ -27,9 +28,11 @@ export default function Header() {
 
                 {/* Right Actions */}
                 <div className="flex items-center gap-4 text-sm">
-                    <button className="bg-sky-400 hover:bg-sky-500 transition-colors text-black px-5 py-2 rounded-full font-medium shadow-sm">
-                        Contact Us
-                    </button>
+                    <Link href={'/#contact-us'}>
+                        <button className="bg-sky-400 hover:bg-sky-500 transition-colors text-black px-5 py-2 rounded-full font-medium shadow-sm">
+                            Contact Us
+                        </button>
+                    </Link>
 
                     <FaLinkedinIn className="lg:block hidden" color="black" />
 

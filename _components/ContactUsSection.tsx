@@ -20,7 +20,7 @@ export default function ContactForm() {
     };
 
     return (
-        <section className="min-h-[80vh] bg-[#0967A4] text-white font-[Manrope] flex items-center justify-center px-6 md:px-20">
+        <section id="contact-us" className="min-h-[80vh] bg-[#0967A4] text-white font-[Manrope] flex items-center justify-center px-6 md:px-20">
             <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 py-16">
                 {/* Left Content */}
                 <div>
